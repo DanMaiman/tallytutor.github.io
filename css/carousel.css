@@ -66,7 +66,7 @@ body {
 
 
 .carousel h1 {
-  font-size: 64px;
+  font-size: 32px;
   text-shadow:5px 5px 10px black;
   font-family: "gafata", sans-serif;
 }
@@ -196,8 +196,8 @@ body {
     text-align: center;
   }
 
-  #marketing2 h1 {
-    font-size: 
+  .carousel h1 {
+    font-size: 64px;
   }
 
   /* Navbar positioning foo */
@@ -246,16 +246,39 @@ body {
 @media (max-width: 991px) {
   body {
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
     color: #5a5a5a;
     background-image: url("../images/tree2.png");
-    background-attachment: fixed;
-    background-size: auto 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 200% auto;
   }
   .mobile {
     display: none;
   }
+
+  .text-remover {
+    display: none;
+  }
+
   #login {
     display: none;
   }
+
+  .carousel .item {
+    height: 350px;
+  }
+
+  .carousel {
+    height: 350px;
+    margin-bottom: 0px;
+  }
+
+  #marketing2 h1 {
+    font-size: 3em;
+  }
+  
+  #menu {
+    padding-left: 0px;
+  }  
 }
