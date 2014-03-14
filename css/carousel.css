@@ -92,11 +92,6 @@ body {
   opacity: 1;
 }
 
-/* Carousel Buttons */
-.btn-lg {
-  font-size: 30px;
-}
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -246,6 +241,11 @@ body {
   
   #footer {
     padding-bottom: 600px;
+  }
+
+  /* Carousel Buttons */
+  .btn-lg {
+    font-size: 30px;
   }
 }
 
