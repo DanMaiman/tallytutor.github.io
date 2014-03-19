@@ -4,7 +4,7 @@
 
 body {
   padding-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
   color: #5a5a5a;
   background-image: url("../images/tree2.png");
   background-attachment: fixed;
@@ -251,7 +251,7 @@ body {
   }
   
   #footer {
-    padding-bottom: 600px;
+    padding-bottom: 0px;
   }
 
   /* Carousel Buttons */
