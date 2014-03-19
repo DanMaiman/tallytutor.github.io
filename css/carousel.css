@@ -64,6 +64,12 @@ body {
   margin-bottom: 0px;
 }
 
+/* Font "Gafata" */
+@font-face {
+  font-family: gafata;
+  src: url("../fonts/gafata-regular.ttf") format("truetype");
+}
+
 
 .carousel h1 {
   font-size: 32px;
