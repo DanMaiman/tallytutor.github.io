@@ -65,10 +65,10 @@ body {
 }
 
 /* Font "Gafata" */
-@font-face {
+/*@font-face {
   font-family: gafata;
   src: url("../fonts/gafata-regular.ttf") format("truetype");
-}
+}*/
 
 
 .carousel h1 {
